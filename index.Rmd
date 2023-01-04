@@ -420,32 +420,36 @@ Les données doivent être « adéquates, pertinentes et limitées à ce qui e
 **6. La sécurité** : se prémunir contre les traitements non autorisés ou illicites, mais également contre la perte, la destruction, la diffusion de données que ce soit de façon accidentelle ou volontaire. L'organisation doit prendre toutes les mesures utiles pour garantir l’intégrité et la confidentialité de ces données, en s’assurant notamment que des tiers non autorisés n’y auront pas accès. 
 
 ---
+### Les bases légales du RGPD
 
-1. L’éxécution d'un contrat
+**1. L’éxécution d'un contrat :** Le traitement est nécessaire dans le cadre d’un contrat ou de l’intention de conclure un contrat.
 
-Le traitement est nécessaire dans le cadre d’un contrat ou de l’intention de conclure un contrat.
+**2. L’obligation légale :** l’obligation légale doit venir d’une législation européenne ou nationale.
 
-2. L’obligation légale
+**3. L’éxécution d'une mission d'intérêt public :** Le traitement de données est rendu nécessaire par l’exécution d’une mission d’intérêt public,
 
-L’obligation légale doit venir d’une législation européenne ou nationale.
+**4. L’intérêt vital :** ce motif s’applique lorsque de graves menaces pèsent sur une personne : risque de blessure ou de tout autre atteinte à la santé ou à la sécurité.
 
-3. L’éxécution d'une mission d'intérêt public
-
-Le traitement de données est rendu nécessaire par l’exécution d’une mission d’intérêt public,
-
-4. L’intérêt vital
-
-Ce motif s’applique lorsque de graves menaces pèsent sur une personne : risque de blessure ou de tout autre atteinte à la santé ou à la sécurité.
-
-5. L’intérêt légitime
-
-L’intérêt légitime ne peut être utilisé par les autorités publiques dans l’exécution de leurs missions. L'intérêt légitime peut être utilisé dans le cas des relations de prospection commerciale.
-
-6. Le consentement
-
-Le consentement doit porter sur une ou plusieurs finalités spécifiques, il ne peut être exprimé de manière générale.
+**5. L’intérêt légitime :** l’intérêt légitime ne peut être utilisé par les autorités publiques dans l’exécution de leurs missions. L'intérêt légitime peut être utilisé dans le cas des relations de prospection commerciale.
 
 
+**6. Le consentement :** il doit porter sur une ou plusieurs finalités spécifiques, il ne peut être exprimé de manière générale.
+
+---
+### Focus sur l'intérêt légitime
+
+Le recours à l’intérêt légitime pour fonder légalement un traitement est soumis à 3 conditions :
+
+**1. l’intérêt poursuivi par l’organisme doit être « légitime »** : l'intérêt doit être licite au regard du droit, déterminé de façon suffisamment claire et précise, réel et présent pour l’organisme concerné, et non fictif. 
+
+Pas de liste exhaustive mais le RGPD et la jurisprudence en fournissent des illustrations (sécurité du réseau, prévention de la fraude, opérations de prospection commerciale, gestion administrative interne des clients ou employé)
+
+**2. l’intérêt légitime ne peut être retenu que si le traitement satisfait à la condition de « nécessité »** : vérifier que le traitement de données envisagé permet effectivement d’atteindre l’objectif poursuivi, et non, en réalité, d’autres objectifs. S’assurer qu’il n’existe pas de moyen moins intrusif pour la vie privée d’atteindre cet objectif. Démontrer la validité du recours à cette base légale.
+
+** 
+
+
+.footnote[[Source : CNIL](https://www.cnil.fr/fr/les-bases-legales/interet-legitime)]
 ---
 class: inverse, center, middle
 
