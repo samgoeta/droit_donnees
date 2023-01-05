@@ -4,7 +4,7 @@
     <title>Enjeux du droit des données</title>
     <meta charset="utf-8" />
     <meta name="author" content="Samuel Goëta, Sciences Po Aix" />
-    <meta name="date" content="2023-01-04" />
+    <meta name="date" content="2023-01-05" />
     <script src="libs/header-attrs-2.14/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
@@ -37,7 +37,7 @@ class: center, middle, inverse, title-slide
 # Enjeux du droit des données
 ## Droit d’accès, open data et RGPD
 ### Samuel Goëta, Sciences Po Aix
-### 2023-01-04
+### 2023-01-05
 
 ---
 
@@ -355,6 +355,12 @@ class: inverse, center, middle
 ## Les concepts fondamentaux du RGPD
 
 ---
+class: inverse, center, middle
+## Merci chère DPO !
+
+#### Un grand merci à la DPO de Datactivist, Anne-Laure Donzel, ainsi qu'à la communauté juridique de Datactivist (Emeline Vandeven, Justine Banuls) pour leur super guide du RGPD qui sert de base à cette partie du cours
+
+---
 ### Une donnée à caractère personnel 
 
 C'est toute information relative à une personne physique susceptible d'être identifiée, directement ou indirectement.
@@ -439,22 +445,184 @@ Le recours à l’intérêt légitime pour fonder légalement un traitement est 
 
 **1. l’intérêt poursuivi par l’organisme doit être « légitime »** : l'intérêt doit être licite au regard du droit, déterminé de façon suffisamment claire et précise, réel et présent pour l’organisme concerné, et non fictif. 
 
-Pas de liste exhaustive mais le RGPD et la jurisprudence en fournissent des illustrations (sécurité du réseau, prévention de la fraude, opérations de prospection commerciale, gestion administrative interne des clients ou employé)
+Exemples : prévention de la fraude, opérations de prospection commerciale, gestion administrative interne des clients ou employé
 
 **2. l’intérêt légitime ne peut être retenu que si le traitement satisfait à la condition de « nécessité »** : vérifier que le traitement de données envisagé permet effectivement d’atteindre l’objectif poursuivi, et non, en réalité, d’autres objectifs. S’assurer qu’il n’existe pas de moyen moins intrusif pour la vie privée d’atteindre cet objectif. Démontrer la validité du recours à cette base légale.
 
-** 
+** 3. Le traitement ne doit pas heurter les droits et intérêts des personnes dont les données sont traitées, compte tenu de leurs attentes raisonnables** : mettre en balance droits et intérêt, identifier conséquences sur les droits des personnes, tenir compte de leurs "**attentes raisonnables**"
+
 
 
 .footnote[[Source : CNIL](https://www.cnil.fr/fr/les-bases-legales/interet-legitime)]
+
 ---
+
+### Focus sur le consentement 
+
+Pour être valable, le responsable de traitement doit pouvoir démontrer à tout moment qu’une personne a bien donné son consentement :
+
+- **Libre :** il ne doit pas être contraint, ni influencé. La personne doit se voir offrir un choix réel, sans avoir à subir d conséquences négatives en cas de refus (par exemple : la participation à un jeu-concours ne peut pas être soumise à l’acceptation d’une lettre d’information).
+
+- **Spécifique :** il doit correspondre à un seul traitement, pour une finalité déterminée.
+ 
+- **Eclairé :** il doit être accompagné d’un certain nombre d’informations communiquées à la personne avant qu’elle ne consente, afin d’être valide.
+
+- **Univoque :** il doit être donné par une déclaration ou tout autre acte positif clair. Aucune ambiguïté quant à l’expression du consentement ne peut demeurer : interdiction des cases pré-cochées, pas de consentement groupé avec acceptation d’utilisation, l’inaction d’un usager ne vaut pas consentement.
+
+
+---
+### Le transfert de données vers un partenaire
+
+Tous les organismes qui traitent des données personnelles pour le compte d’un autre organisme, dans le cadre d’un service ou d’une prestation sont des sous-traitants, et ce, quel que soit le mode de contractualisation avec le partenaire. 
+
+Dans ce cas, les sous-traitants sont tenus de respecter des obligations spécifiques en matière de sécurité, de confidentialité et de documentation de leur activité. 
+
+Ils doivent prendre en compte la protection des données dès la conception du service ou du produit (privacy by design) et par défaut en mettant en place des mesures permettant de garantir une protection optimale des données (privacy by design). 
+
+Ces règles sont décrites dans une **clause ou un contrat de sous-traitance**. Ces clauses s’appliquent aussi bien dans le cas de marché public que de convention ou de tout autre type de relation qui entraîne des échanges de données.
+
+
+---
+class:inverse
+
+.pull-left[
+![](img/caf.png)
+
+[Caf de Gironde : 10 000 allocataires voient leurs données personnelles publiées sur internet](https://www.francebleu.fr/infos/faits-divers-justice/caf-de-gironde-10-000-allocataires-voient-leurs-donnees-personnelles-publiees-sur-internet-6243322)
+
+]
+
+.pull-right[
+### Exercice
+
+#### Lisez l'article 
+
+#### Faites 2 groupes
+
+#### Identifiez les fondements du RGPD qui n'ont pas été respectés
+
+#### Préparez collectivement votre réponse et désignez un porte-parole qui restituera en 5 minutes
+
+]
+---
+### L'information des personnes
+
+.pull-left[
+L’information des personnes est un élément incontournable du RGPD. Élément de transparence, elle permet aux personnes dont les données sont traitées :
+
+- de connaître la raison de la collecte des différentes données les concernant ;
+
+- de comprendre le traitement qui sera fait de leurs données ;
+
+- d’assurer la maîtrise de leurs données, en facilitant l’exercice de leurs droits.
+
+]
+--
+
+.pull-right[
+
+#### Les caractéristiques d'une bonne information
+
+- **Compréhensible :** les termes utilisés doivent être simples et adaptés au public visé.
+
+- **Lisible : ** en étant concise et en priorisant les informations à mettre en avant, offrir un accès simple et immédiat aux autres informations. 
+
+- **Accessible : ** Les personnes ne doivent pas avoir à chercher l’information. Elles doivent immédiatement voir comment et où y accéder.
+]
+
+---
+### Un bon élève : l'application Decathlon Coach
+
+.pull-left[
+
+![](img/decat1.png)
+]
+
+.pull-right[
+![](img/decat2.png)
+]
+
+.footnote[[Source](https://www.decathloncoach.com/fr/home/personalData-pdf)]
+
+---
+### Rédiger une mention d'information
+
+Il n’y a pas une seule façon de bien informer les personnes. Cette information doit être :
+
+- **adaptée aux situations** et aux supports de collecte ;
+
+- **accessible et compréhensible.**
+
+Le RGPD pousse ainsi à la mise en place de solutions innovantes. Une approche combinant différentes modalités d’information, par étapes complémentaires, permet d’atteindre l’objectif de transparence.
+
+Dans cette optique, nous proposons 2 mentions. Elles fournissent sensiblement les mêmes informations, mais elles ne rendent pas visibles au premier coup d'oeil les mêmes informations : 
+- la **mention courte** va fournir très peu d'information au premier regard, elle est adapté aux traitements avec peu d'enjeu.
+- la **mention longue** va fournir plus d'information au premier regard, elle est adapté aux traitements avec des enjeux plus forts.
+
+---
+### La mention courte
+
+Cette mention est adaptée pour des formulaires, questionnaires, pied de mail qui sont peu complexes et peu intrusifs (peu de données collectées).
+
+La mention courte se compose de 2 éléments, la mention en tant que telle et qui propose un lien pour en savoir plus qui va rentrer un peu plus dans le détail
+
+#### La mention
+
+&gt; `[L'entreprise]` traite les données recueillies afin de `[finalité de traitement]`. Pour en savoir plus sur la gestion de vos données et vos droits, cliquez ici `[lien vers la notice détaillée]`.
+
+---
+### La mention longue
+
+La mention longue se compose de 2 éléments :
+
+* la mention en tant que telle, elle se trouve en pied de formulaire ou de mail par exemple et elle possède un lien vers une autre page "en savoir plus"
+* la notice détaillée qui est la page "en savoir plus".
+
+#### La mention
+
+&gt; `[L'entreprise]` traite les données recueillies afin de `[finalité de traitement]`. Ces données sont conservées durant `[durée de conservation]` et elles peuvent être transmises à notre sous-traitant `[nom du sous-traitant]` chargé de `[finalité de la sous-traitance]`. Pour exercer vos droits Informatique et Libertés, notamment votre droit d’accès aux données qui vous concernent, ou pour toute information sur ce dispositif, vous pouvez contacter notre délégué à la protection des données (DPO) en écrivant à `[Adresse mail]`. Pour en savoir plus sur la gestion de vos données personnelles et vos droits `[lien vers la notice détaillée]`.
+
+
+---
+#### .red[La notice détaillée]
+
+&gt; **Objet du traitement** : `[L'entreprise]` , dont le siège est situé `[Adresse]`  traite des données à caractère personnel dans le but de `[finalité de traitement]`.
+&gt; La base légale du traitement est `[base légale]`.
+
+&gt; **Données et catégories de personnes concernées** : Ce traitement comporte la collecte des données suivantes `[données concernées]` et elles concernent `[personnes concernées]`.
+
+&gt; **Destinataires des données** : les données sont transmises à `[nom]` afin de `[finalité sous-traitance]`.
+
+&gt; **Durée de conservation** : les données sont conservées durant `[durée]`.
+
+&gt; **Droit des personnes** : vous pouvez accéder aux données vous concernant. Vous disposez également d'un droit `[préciser suivant les cas]`. &gt; Pour exercer ces droits ou pour toute question sur le traitement de vos données dans ce dispositif, vous pouvez contacter notre délégué à la protection des données (DPO) par voie électronique : `[Adresse mail]`  Vous disposez également du droit d'adresser une réclamation auprès de la [CNIL](https://cnil.fr).
+
+
+---
+
+### Le recueil du consentement
+
+Le consentement se place suite à une [mention d'information](%F0%9F%9A%8FMention%20d'information/Choisir%20sa%20mention.md?fileId=331715) et il se présente, le plus souvent, sous la forme d'une case à cocher.
+
+**Une finalité = un consentement!**
+
+**Dans le cas où il n'y a qu'une finalité**
+
+* [ ] J'accepte que `[l'entreprise]`  traite mes données dans les conditions décrites ci-dessus
+
+**Dans le cas où il y a plusieurs finalités**
+
+* [ ] J'accepte que `[l'entreprise]`  traite mes données afin de `[finalité 1]`
+* [ ] J'accepte que `[l'entreprise]`  traite mes données afin de `[finalité n]`
+
+**Un point important à ne pas négliger : offrir la possibilité de retirer son consentement à tout moment** Dans le cas des mailing ou des envois de newsletter, il faut penser à afficher un lien de désabonnement en pied de message.
+
+--- 
 class: inverse, center, middle
 
 # Merci !
 
-Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
-
-
+Contact : [samuel@datactivist.coop](mailto:samuel@datactivist.coop)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
