@@ -619,7 +619,7 @@ Le consentement se place suite à une [mention d'information](%F0%9F%9A%8FMentio
 
 **Un point important à ne pas négliger : offrir la possibilité de retirer son consentement à tout moment** Dans le cas des mailing ou des envois de newsletter, il faut penser à afficher un lien de désabonnement en pied de message.
 
---- 
+---
 class: inverse, center, middle
 
 # Merci !
